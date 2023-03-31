@@ -1,0 +1,285 @@
+/* h1{
+    background-color: blue;
+} */
+
+@media screen and (max-width:600px) {
+    .main-section {
+        width: 496px;
+        height: 794px;
+        padding: 2px;
+    }
+
+    .text-main-section {
+        position: relative;
+        bottom: 200px;
+        width: 400px;
+        height: 216px;
+        padding: 40px;
+    }
+
+    .text-description {
+        position: relative;
+        width: 472px;
+        height: 120px;
+    }
+
+    .mobile-main-section {
+        position: relative;
+        top: 225px;
+        background-color: #F1F3FF;
+        bottom: 400px;
+        max-width: 600px;
+    }
+
+    .img-main-section {
+        max-width: 410px;
+        max-height: 300px;
+        left: 30px;
+        bottom: 60px;
+    }
+
+    .bg-color-main-section {
+        background-color: #0D28A6;
+        max-width: 532px;
+        max-height: 198px;
+    }
+
+    .banner {
+        max-width: 460px;
+        min-height: 420px;
+    }
+
+    .section-testimonial {
+        padding: 0px;
+        margin: 0px 0px 0px 230px;
+    }
+
+    .testimonial-heading {
+        position: relative;
+        top: 50px;
+    }
+
+    .card-testimonial {
+        max-width: 480px;
+        min-height: 350px;
+        margin: 10px -5px;
+    }
+
+    .img-testimonial {
+        position: relative;
+        bottom: 50px;
+        right: -150px;
+    }
+
+    .rating-description {
+        position: relative;
+        bottom: 160px;
+        right: -90px;
+    }
+
+    .star {
+        position: relative;
+        text-align: center;
+        left: -33px;
+        margin-bottom: 10px;
+    }
+
+    .owl-nav {
+        position: relative;
+        width: 1921px;
+        height: 438px;
+        left: -720px;
+    }
+}
+
+/* button */
+.btn-success {
+    background-color: #5CB85F !important;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+/* navbar */
+.navbar {
+    background-color: #F1F3FF;
+}
+
+.nav-link {
+    color: black;
+    font-size: 18px;
+}
+
+.brand {
+    background-color: #0D28A6;
+    position: static;
+    width: 100px;
+    height: 34px;
+    left: 136px;
+    top: 25px;
+}
+
+/* main-section */
+.main-section {
+    background-color: #F1F3FF;
+}
+
+.text-main-section {
+    position: relative;
+    bottom: 10px;
+    left: -30px;
+}
+
+.img-main-section {
+    position: absolute;
+    width: 610px;
+    height: 380px;
+    right: 50px;
+    bottom: 10px;
+    top: -170px;
+}
+
+.main-section-bg-img {
+    position: relative;
+    bottom: 130px;
+    right: 50px;
+}
+
+.bg-color-main-section {
+    background-color: #0D28A6;
+    position: absolute;
+    width: 660px;
+    height: 232px;
+    top: 280px;
+    border-top-left-radius: 70px;
+}
+
+.li-our-service {
+    position: relative;
+    right: 30px;
+    list-style: none;
+    padding: 10px 40px;
+    background-image: url(img/list-group.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+/* testimonial */
+.section-testimonial {
+    position: relative;
+    width: 1921px;
+    height: 438px;
+    left: -250px;
+}
+
+.card-testimonial {
+    width: 619px;
+    height: 270px;
+    background-color: #F1F3FF;
+    border: none;
+    margin-top: 70px;
+}
+
+.img-testimonial {
+    position: relative;
+    margin: 80px 30px;
+    max-width: 90px;
+    height: 90px;
+}
+
+.text-testimonial {
+    line-height: 20px;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+.owl-nav {
+    position: relative;
+    width: 1921px;
+    height: 438px;
+    right: 50px;
+}
+
+.owl-dots {
+    display: none;
+}
+
+/* banner sewa mobil */
+.banner {
+    background-color: #0D28A6;
+    width: 1168px;
+    height: 326px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.banner-heading {
+    color: white;
+    padding: 60px 20px 20px;
+    text-align: center;
+}
+
+.banner-description {
+    color: white;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* FAQ */
+.faq-accordion {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px;
+}
+
+/* cari-mobil */
+.cari-mobil {
+    position: relative;
+    right: 3px;
+    bottom: 40px;
+    height: 120px;
+}
+
+.col-tipe-driver {
+    position: relative;
+    left: 30px;
+    width: 200px;
+}
+
+.col-tanggal {
+    position: relative;
+    left: 40px;
+    width: 230px;
+}
+
+.col-waktu-jemput {
+    position: relative;
+    left: 50px;
+    width: 230px;
+}
+
+.col-jumlah-penumpang {
+    position: relative;
+    left: 60px;
+    width: 230px;
+}
+
+.col-btn {
+    position: relative;
+    left: 45px;
+    top: 27px;
+}
+
+.icon-jumlah-penumpang {
+    position: relative;
+    top: 10px;
+    left: -20px;
+}
+
+/* footer */
+.footer-list {
+    font-weight: 650;
+}
